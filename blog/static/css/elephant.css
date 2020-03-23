@@ -1,0 +1,126 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+
+/*Fin del reset CSS.*/
+
+body{
+    background-color: black;
+}
+
+.logo{
+    float: left;
+}
+
+.text_title{
+    color: red;
+    font-family: 'Caveat', cursive;
+    font-size: 75px;
+}
+
+#add{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.question{
+    color: lightblue;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    clear: left;
+    float: left;
+}
+
+footer{
+    color: red;
+    padding-top: 50px;
+}
+
+#pie{
+    padding-left: 40px;
+}
+
+.post p, h2{
+    color: lightblue;
+    padding-left: 40px;
+}
+
+.post_separator{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+#date{  
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: 'Sulphur Point', sans-serif;
+    color: black;
+}
+
+.title{
+    font-family: 'Stylish', sans-serif;
+    font-size: 32px;
+    color: black
+}
+
+#title_detail{
+    font-family: 'Stylish', sans-serif;
+    font-size: 32px;
+    color: grey;
+}
+
+#title:hover{
+    color: lightcoral;
+}
+
+#text{
+    font-family: 'Sulphur Point', sans-serif;
+    color: black;
+    padding-left: 40px;
+}
+
+/*FOMULARIO*/
+
+.new_post{
+    padding-top: 50px;
+    padding-left: 88px;
+    font-family: 'Stylish', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.post-form{
+    color: blanchedalmond;
+    font-family: 'Sulphur Point', sans-serif;
+    padding-left: 40px;
+    background-color: black;
+}
+
+.post-form textarea, .post-form input {
+    background-color: white;
+    margin: 10px;
+    width: 30%;
+}
+
+.boton_add{
+    font-family: 'Sulphur Point', sans-serif;
+    margin-top: 10px;
+    margin-left: 48px;
+}

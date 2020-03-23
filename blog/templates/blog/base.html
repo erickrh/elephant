@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Elephant" content="Microblog">
+    <title>Elephant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <!--link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet"-->
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/elephant.css' %}">
+</head>
+<body>
+    <figure class="logo">
+        <a href="/"><img src="{% static 'css/Imagenes/elephant_3.png'%}" alt="logo elephant" width="100"></a>
+    </figure>
+
+    <a style="text-decoration:none" href="/"><h1 class="text_title">Elephant</h1></a>
+
+    <h2 class="question">What will you post now?</h2>
+
+    <a href="{% url 'post_new' %}"><img id="add" src="{% static 'css/Imagenes/1.png' %}" alt="add post" width="37"></a>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+
+<footer id="pie">
+    <small><em><strong>By: e1993</strong></em></small>
+</footer>
+</html>
