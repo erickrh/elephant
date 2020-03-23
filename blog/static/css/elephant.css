@@ -147,10 +147,12 @@ footer{
 @media screen and (max-width: 800px){
     header{
         width: 100%;
+        height: auto;
     }
 
     section{
         width: 100%;
+        height: auto;
     }
 
     .post_separator{
@@ -162,14 +164,43 @@ footer{
 @media screen and (max-width: 400px){
     .contenedor{
         width: 100%;
+        height: auto;
     }
     
     section{
         width: 100%;
+        height: auto;
     }
     
     .post_separator{
         width: 80%;
+        height: auto;
+    }
+
+    header{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .contenedor{
+        width: 100%;
+        height: auto;
+    }
+    
+    section{
+        width: 100%;
+        height: auto;
+    }
+    
+    .post_separator{
+        width: 80%;
+        height: auto;
+    }
+    
+    header{
+        width: 100%;
         height: auto;
     }
 }
