@@ -19,12 +19,21 @@ body{
 
 .logo{
     float: left;
+    width: 9%;
+    height: auto;
 }
 
 .text_title{
-    color: red;
+    color: papayawhip;
     font-family: 'Caveat', cursive;
     font-size: 75px;
+    width: 70%;
+    height: auto;
+}
+
+header{
+    width: 70%;
+    height: auto;
 }
 
 #add{
@@ -123,4 +132,30 @@ footer{
     font-family: 'Sulphur Point', sans-serif;
     margin-top: 10px;
     margin-left: 48px;
+}
+
+.contenedor{
+    width: 100%;
+    /*max-width: 1000px;*/
+}
+
+.contenedor_question{
+    width: 60%;
+    height: auto;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .contenedor{
+        width: 100%;
+    }
 }
