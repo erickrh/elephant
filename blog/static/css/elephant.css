@@ -17,28 +17,24 @@ body{
     background-color: black;
 }
 
-.logo{
+.imagen_elephant{
     float: left;
-    width: 9%;
+    width: 11%;
     height: auto;
 }
 
 .text_title{
     color: papayawhip;
     font-family: 'Caveat', cursive;
-    font-size: 75px;
-    width: 70%;
-    height: auto;
-}
-
-header{
-    width: 70%;
-    height: auto;
+    font-size: 6vw;
 }
 
 #add{
-    padding-top: 30px;
-    padding-left: 30px;
+    padding-top: 28px;
+    padding-left: 20px;
+    width: 4%;
+    height: auto;
+    box-sizing: border-box;
 }
 
 .question{
@@ -46,23 +42,26 @@ header{
     padding-left: 40px;
     padding-top: 30px;
     font-family: 'Caveat', cursive;
-    font-size: 20px;
+    font-size: 2vw;
     clear: left;
     float: left;
+    box-sizing: border-box;
 }
 
 footer{
     color: red;
-    padding-top: 50px;
+    padding-top: 10%;
 }
 
 #pie{
     padding-left: 40px;
+    box-sizing: border-box;
 }
 
 .post p, h2{
     color: lightblue;
     padding-left: 40px;
+    box-sizing: border-box;
 }
 
 .post_separator{
@@ -72,6 +71,7 @@ footer{
     margin-bottom: 10px;
     padding-bottom: 10px;
     margin-left: 20px;
+    box-sizing: border-box;
 }
 
 #date{  
@@ -134,73 +134,84 @@ footer{
     margin-left: 48px;
 }
 
+
+/*RESPONSIVE DESING*/
+
 .contenedor{
     width: 100%;
-    /*max-width: 1000px;*/
-}
-
-.contenedor_question{
-    width: 60%;
-    height: auto;
+    margin: auto;
 }
 
 @media screen and (max-width: 800px){
-    header{
-        width: 100%;
+    .imagen_elephant{
+        float: left;
+        width: 50%;
         height: auto;
     }
 
-    section{
-        width: 100%;
+    .text_title{
+        color: papayawhip;
+        font-family: 'Caveat', cursive;
+        font-size: 14vw;
+        padding-left: 8%;
+    }
+
+    .question{
+        color: lightblue;
+        padding-left: 8%;
+        padding-top: 4%;
+        font-family: 'Caveat', cursive;
+        font-size: 18px;
+        clear: left;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    #add{
+        padding-top: 4%;
+        padding-left: 4%;
+        width: 12%;
         height: auto;
+        box-sizing: border-box;
     }
 
     .post_separator{
-        width: 80%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 400px){
-    .contenedor{
-        width: 100%;
-        height: auto;
-    }
-    
-    section{
-        width: 100%;
-        height: auto;
-    }
-    
-    .post_separator{
-        width: 80%;
-        height: auto;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        width: 90%;
+        margin-bottom: 3%;
+        padding-bottom: 3%;
+        margin-left: 5%;
+        box-sizing: border-box;
     }
 
-    header{
-        width: 100%;
-        height: auto;
+    .post p, h2{
+        color: lightblue;
+        padding-left: 10%;
+        box-sizing: border-box;
     }
-}
 
-@media screen and (max-width: 300px){
-    .contenedor{
-        width: 100%;
-        height: auto;
+    #date{  
+        font-size: 12px;
+        padding-left: 10%;
+        padding-top: 5%;
+        margin-top: 5%;
+        font-family: 'Sulphur Point', sans-serif;
+        color: black;
     }
-    
-    section{
-        width: 100%;
-        height: auto;
+    .title{
+        font-family: 'Stylish', sans-serif;
+        font-size: 20px;
+        color: black
     }
-    
-    .post_separator{
-        width: 80%;
-        height: auto;
+
+    #text{
+        font-family: 'Sulphur Point', sans-serif;
+        font-size: 13px;
+        color: black;
+        padding-left: 10%;
     }
-    
-    header{
-        width: 100%;
-        height: auto;
-    }
+
+    /*FOMULARIO*/
+
 }

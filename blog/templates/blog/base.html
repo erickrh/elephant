@@ -4,7 +4,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Elephant" content="Microblog">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <title>Elephant</title>
     <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
@@ -18,7 +17,7 @@
     <div class="contenedor">
         <header>
             <figure class="logo">
-                <a href="/"><img src="{% static 'css/Imagenes/elephant_3.png'%}" alt="logo elephant" width="100"></a>
+                <a href="/"><img class="imagen_elephant" src="{% static 'css/Imagenes/elephant_3.png'%}" alt="logo elephant"></a>
             </figure>
 
             <a style="text-decoration:none" href="/"><h1 class="text_title">Elephant</h1></a>
@@ -28,11 +27,13 @@
             <div class="contenedor_question">
                 <h2 class="question">What will you post now?</h2>
 
-                <a href="{% url 'post_new' %}"><img id="add" src="{% static 'css/Imagenes/1.png' %}" alt="add post" width="37"></a>
+                <a href="{% url 'post_new' %}"><img id="add" src="{% static 'css/Imagenes/1.png' %}" alt="add post"></a>
             </div>
             
+            <div class="contenedor_post_list">
             {% block content %}
             {% endblock %}
+            </div>
         </section>
 
         <footer id="pie">
