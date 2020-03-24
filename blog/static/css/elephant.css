@@ -50,11 +50,8 @@ body{
 
 footer{
     color: red;
-    padding-top: 10%;
-}
-
-#pie{
-    padding-left: 40px;
+    padding-top: 8%;
+    padding-left: 30px;
     box-sizing: border-box;
 }
 
@@ -126,6 +123,7 @@ footer{
     background-color: white;
     margin: 10px;
     width: 30%;
+    font-family: 'Sulphur Point', sans-serif;
 }
 
 .boton_add{
@@ -148,6 +146,7 @@ footer{
         width: 50%;
         height: auto;
         max-width: 100%;
+        margin-left: -12%;
     }
 
     .text_title{
@@ -169,7 +168,7 @@ footer{
     }
 
     #add{
-        padding-top: 4%;
+        padding-top: 10%;
         padding-left: 4%;
         width: 12%;
         height: auto;
@@ -180,23 +179,23 @@ footer{
     .post_separator{
         background-color: whitesmoke;
         border-radius: 10px;
-        width: 90%;
-        margin-bottom: 3%;
-        padding-bottom: 3%;
+        width: 84%;
+        margin-bottom: 2%;
+        padding-bottom: 2%;
         margin-left: 5%;
         box-sizing: border-box;
     }
 
     .post p, h2{
         color: lightblue;
-        padding-left: 10%;
+        padding-left: 5%;
         box-sizing: border-box;
     }
 
     #date{  
         font-size: 12px;
-        padding-left: 10%;
-        padding-top: 5%;
+        padding-left: 5%;
+        padding-top: 3%;
         margin-top: 5%;
         font-family: 'Sulphur Point', sans-serif;
         color: black;
@@ -211,9 +210,38 @@ footer{
         font-family: 'Sulphur Point', sans-serif;
         font-size: 13px;
         color: black;
-        padding-left: 10%;
+        padding-left: 5%;
     }
 
+
     /*FOMULARIO*/
+
+    .new_post{
+        padding-top: 0.8%;
+        padding-left: 8%;
+        font-family: 'Stylish', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .post-form{
+        color: blanchedalmond;
+        font-family: 'Sulphur Point', sans-serif;
+        padding-left: 8%;
+        background-color: black;
+    }
+
+    .post-form textarea, .post-form input {
+        background-color: white;
+        margin: 10px;
+        width: 70%;
+        font-family: 'Sulphur Point', sans-serif;
+    }
+
+    footer{
+        color: gray;
+        padding-top: 20%;
+        padding-left: 6%;
+    }
 
 }
