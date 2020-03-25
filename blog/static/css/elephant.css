@@ -49,63 +49,95 @@ body{
 }
 
 footer{
-    color: red;
-    padding-top: 8%;
+    color: gray;
+    padding-top: 5%;
     padding-left: 30px;
     box-sizing: border-box;
 }
 
 .post p, h2{
     color: lightblue;
-    padding-left: 40px;
-    box-sizing: border-box;
+    padding-left: 15px;
 }
 
 .post_separator{
     background-color: whitesmoke;
     border-radius: 10px;
-    width: 50%;
+    width: 47%;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    margin-left: 20px;
-    box-sizing: border-box;
+    margin-left: 30px;
 }
 
 #date{  
     font-size: 12px;
-    padding-left: 40px;
+    padding-left: 15px;
     padding-top: 10px;
     margin-top: 10px;
     font-family: 'Sulphur Point', sans-serif;
     color: black;
 }
 
+.edit_button{
+    padding-top: 10px;
+    padding-left: 420px;
+    width: 3%;
+    height: auto;
+}
+
 .title{
     font-family: 'Stylish', sans-serif;
     font-size: 32px;
-    color: black
+    color: black;
 }
 
-#title_detail{
-    font-family: 'Stylish', sans-serif;
-    font-size: 32px;
-    color: grey;
-}
-
-#title:hover{
+.title:hover{
     color: lightcoral;
 }
 
 #text{
     font-family: 'Sulphur Point', sans-serif;
     color: black;
-    padding-left: 40px;
+    padding-left: 15px;
 }
 
-/*FOMULARIO*/
+/* ------------------------ DETAIL ------------------------ */
+
+#date_detail{  
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: 'Sulphur Point', sans-serif;
+    color: black;
+    float: left;
+}
+
+.edit_button_detail{
+    padding-top: 10px;
+    padding-left: 380px;
+    width: 3%;
+    height: auto;
+}
+
+.title_detail{
+    font-family: 'Stylish', sans-serif;
+    font-size: 32px;
+    color: black;
+    clear: left;
+}
+
+#text_detail{
+    font-family: 'Sulphur Point', sans-serif;
+    color: black;
+    padding-left: 15px;
+}
+
+
+/* ------------------------ FOMULARIO ------------------------ */
 
 .new_post{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 88px;
     font-family: 'Stylish', sans-serif;
     font-size: 28px;
@@ -132,8 +164,7 @@ footer{
     margin-left: 48px;
 }
 
-
-/*RESPONSIVE DESING*/
+/* ------------------------ RESPONSIVE DESING ------------------------ */
 
 .contenedor{
     width: 100%;
@@ -203,7 +234,7 @@ footer{
     .title{
         font-family: 'Stylish', sans-serif;
         font-size: 20px;
-        color: black
+        color: black;
     }
 
     #text{
@@ -212,6 +243,40 @@ footer{
         color: black;
         padding-left: 5%;
     }
+
+/* ------------------------ DETAIL ------------------------ */
+
+#date_detail{  
+    font-size: 12px;
+    padding-left: 5%;
+    padding-top: 3%;
+    margin-top: 5%;
+    font-family: 'Sulphur Point', sans-serif;
+    color: black;
+    float: left;
+}
+
+.edit_button_detail{
+    padding-top: 5%;
+    padding-left: 12%;
+    width: 7%;
+    height: auto;
+    clear: left;
+}
+
+.title_detail{
+    font-family: 'Stylish', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+#text_detail{
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 13px;
+    color: black;
+    padding-left: 5%;
+}
+
 
 
     /*FOMULARIO*/
@@ -236,11 +301,12 @@ footer{
         margin: 10px;
         width: 70%;
         font-family: 'Sulphur Point', sans-serif;
+        font-size: 14.6px;
     }
 
     footer{
         color: gray;
-        padding-top: 20%;
+        padding-top: 15%;
         padding-left: 6%;
     }
 
